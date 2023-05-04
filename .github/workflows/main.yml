@@ -24,4 +24,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: your_dockerhub_username/your_repository_name:${{ github.sha }}
+        tags: dreaddevil/django-pg-docker-tutorial:${{ github.sha }}
